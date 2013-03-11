@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="49.33dip"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="49.33dip"
+        android:background="@null"
+        android:id="@+id/setting_webchat"
+        android:src="@drawable/selector_weichat_bg" />
+
+</RelativeLayout>

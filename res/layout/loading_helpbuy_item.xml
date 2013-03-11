@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000" >
+
+    <ImageView
+        android:id="@+id/loading_help_image"
+        android:layout_width="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/loading_help_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/selector_dialog_close" />
+
+</RelativeLayout>

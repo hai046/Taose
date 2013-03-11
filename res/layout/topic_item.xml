@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topic_itemLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/recommend_layoutHeight"
+    android:padding="0.5dip" >
+
+    <TextView
+        android:id="@+id/topic_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topic_item_textviewHeight"
+        android:background="@color/bg"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="没欲望，滴一滴"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_h2" />
+
+    <ImageView
+        android:id="@+id/topic_img"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/recommend_layoutImage"
+        android:layout_marginTop="@dimen/topic_marginitem_textviewHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zwt3" >
+    </ImageView>
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/topic_content" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/topic_title" -->
+    <!-- android:layout_margin="5dip" -->
+    <!-- android:shadowColor="#000000" -->
+    <!-- android:shadowDx="2" -->
+    <!-- android:shadowDy="2" -->
+    <!-- android:shadowRadius="2" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:text="没欲望，滴一滴" -->
+    <!-- android:textColor="@color/white" -->
+    <!-- android:textSize="14sp" /> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topic_item_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/galleryBg"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/topic_rmb"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:paddingBottom="4dip"
+            android:text="￥"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_12" />
+
+        <TextView
+            android:id="@+id/topic_price"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/topic_rmb"
+            android:gravity="bottom"
+            android:paddingBottom="1dip"
+            android:text="118"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/topic_volumn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="bottom"
+            android:paddingBottom="4dip"
+            android:text="销量：1231"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_12" />
+    </RelativeLayout>
+
+</RelativeLayout>

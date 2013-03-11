@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mnbg" >
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/game_dice_surfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true" >
+    </android.opengl.GLSurfaceView>
+
+    <!-- <ImageButton -->
+    <!-- android:id="@+id/game_dice_btnStatus" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:layout_marginTop="88dip"/> -->
+
+
+    <!-- android:background="@drawable/selector_dice_start" -->
+
+    <ImageView
+        android:id="@+id/game_dice_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/hgzszlyc"
+        android:visibility="gone" />
+
+    <ImageView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/xylp"
+        />
+
+    <ImageButton
+        android:id="@+id/game_dice_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:background="@drawable/selector_dice_back" />
+
+</RelativeLayout>

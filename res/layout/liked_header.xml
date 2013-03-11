@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/size49_33"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="@dimen/size45"
+        android:layout_height="@dimen/size45"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:scaleType="center"
+        android:src="@drawable/hongxin" />
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="亲，喜欢就赶紧抢购哦！"
+        android:textColor="@color/Black"
+         android:textSize="@dimen/title_20"  />
+
+</LinearLayout>

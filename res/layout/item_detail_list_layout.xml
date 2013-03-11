@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_detial_view_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:background="@drawable/xqybj"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip" >
+
+        <ImageView
+            android:id="@+id/item_detail_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zwt1" />
+
+        <ImageView
+            android:id="@+id/item_detail_liked"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/item_detail_image"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="-20dip"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sc" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_detail_liked"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/item_detail_viewPriceDetailTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="￥2,341.00"
+                android:textColor="@color/bg"
+                android:textSize="@dimen/title_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_detail_viewVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/item_detail_viewPriceDetailTv"
+                android:layout_marginLeft="@dimen/margin5"
+                android:layout_toRightOf="@id/item_detail_viewPriceDetailTv"
+                android:text="月销量：3244"
+                android:textSize="@dimen/title_12" />
+
+            <TextView
+                android:id="@+id/item_detail_cashOndelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/item_detail_viewVolume"
+                android:layout_marginLeft="@dimen/margin5"
+                android:layout_toRightOf="@id/item_detail_viewVolume"
+                android:background="@color/blue"
+                android:paddingLeft="@dimen/margin3"
+                android:paddingRight="@dimen/margin3"
+                android:text="货到付款"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/item_detail_cashOndelivery"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="21dip"
+                android:text="收藏"
+                android:textColor="@color/black_98"
+                android:textSize="@dimen/title_12" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:layout_below="@id/item_detial_view_Layout"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin16"
+        android:id="@+id/tempbtnLayout"
+        android:paddingRight="@dimen/margin16" >
+
+        <Button
+            android:id="@+id/item_detail_PCbuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_pcgou"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/item_detail_buyBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/item_detail_PCbuy"
+            android:background="@drawable/selector_btnbg"
+            android:text="@string/buyNow"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_detail_viewName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tempbtnLayout"
+        android:padding="@dimen/margin_left10"
+        android:textSize="@dimen/title_18" />
+
+    <View
+        android:id="@+id/xian"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/item_detail_viewName"
+        android:background="@drawable/xuxian" />
+
+    <LinearLayout
+        android:id="@+id/nike"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xian"
+        android:paddingLeft="@dimen/margin_left10"
+        android:paddingRight="@dimen/margin_left10"
+        android:paddingTop="@dimen/margin_left10" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="店家："
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+
+        <TextView
+            android:id="@+id/item_detail_viewaddrAndOthers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/hide_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nike"
+        android:layout_marginBottom="@dimen/size20"
+        android:paddingBottom="@dimen/margin_left10"
+        android:paddingLeft="@dimen/margin_left10"
+        android:paddingRight="@dimen/margin_left10" >
+
+        <TextView
+            android:id="@+id/temp_layoutLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:text="信用："
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+
+        <TextView
+            android:id="@+id/item_detail_viewCreditScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/temp_layoutLeft"
+            android:layout_toRightOf="@id/temp_layoutLeft"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+
+        <TextView
+            android:id="@+id/temp_layoutLeft2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dip"
+            android:paddingLeft="30dip"
+            android:text="所在地："
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+
+        <TextView
+            android:id="@+id/item_detail_viewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/temp_layoutLeft2"
+            android:layout_toRightOf="@id/temp_layoutLeft2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_16" />
+    </RelativeLayout>
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/item_detail_listViewBottom" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_below="@id/hide_id" -->
+    <!-- android:cacheColorHint="@null" > -->
+    <!-- </ListView> -->
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/item_detail_Listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/transparent"
+        android:dividerHeight="6dip"
+        android:fadingEdgeLength="0dip" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/item_detail_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/itemDetail_menu_bg"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/popup_detail_addstore"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/selector_itemdeail_addstore" />
+
+        <ImageButton
+            android:id="@+id/popup_detail_pcGou"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/selector_pcgou_bg" />
+
+        <ImageButton
+            android:id="@+id/popup_detail_buyNow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/selector_itemdeail_buynow" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">淘色</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="lastUpdataTime">上次更新时间：</string>
+    <string name="capture_tip">请将条码置于取景框内扫描</string>
+    <string name="please_toscanPc">用电脑打开淘色官网(taose69.com)，扫描左下方二维码，即可用电脑购买宝贝。使用PC购，操作更方便，支付更安全。</string>
+    <string name="item_detailInfo">淘色宝贝</string>
+    <string name="item_evaluate">宝贝评价</string>
+    <string name="baseInfo">基本信息</string>
+    <string name="detailInfo">详细信息</string>
+    <string name="hotItem">热销</string>
+    <string name="price">价格</string>
+    <string name="credit">信用</string>
+    <string name="mounthVolume">月销量:</string>
+    <string name="back">返回</string>
+    <string name="edit">编辑</string>
+    <string name="ok">确定</string>
+    <string name="prompt">提示</string>
+    <string name="areYouQuit">确定退出吗？</string>
+    <string name="cancel">取消</string>
+    <string name="each">件</string>
+    <string name="xlistview_header_hint_normal">下拉可以刷新</string>
+    <string name="xlistview_header_hint_ready">松开即可刷新</string>
+    <string name="xlistview_header_hint_loading">正在努力为您加载…</string>
+    <string name="xlistview_footer_hint_loading">上拉加载更多</string>
+    <string name="xlistview_header_last_time">上次更新于：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="loadFailure">加载失败，刷新试试</string>
+    <string name="loading">正在加载中...</string>
+    <string name="are_you_exit">   您确定退出吗？</string>
+    <string name="promotions">优惠活动</string>
+    <string name="help">帮助</string>
+    <string name="qr_tip">请使用我们的二维码</string>
+
+    <string-array name="btnLeftText">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="centerText">
+        <item>推荐</item>
+        <item>分类</item>
+        <item>娱乐</item>
+        <item>收藏</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="btnRightText">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="buyNow">立刻购买</string>
+
+    <string-array name="settings">
+        <item>购买帮助</item>
+        <item>隐私密码设置</item>
+        <item>免责声明</item>
+        <item>意见反馈</item>
+        <item>检查更新</item>
+<!--         <item>应用推荐</item> -->
+        <item>关于我们</item>
+    </string-array>
+    <!-- <item>应用推荐</item> -->
+    <string name="weicha_server">微信客服</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_suggest">意见反馈</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_chenckupdata">检查更新</string>
+    <string name="menu_usehelp">使用帮助</string>
+    <string name="menu_aboutme">关于我们</string>
+    <string name="menu_buynow">立即购买</string>
+    <string name="menu_addStroe">添加收藏</string>
+    <string name="menu_deleteStroe">添加收藏</string>
+    <string name="menu_buyhelp">购买帮助</string>
+    <string name="menu_disclaimer">免责申明</string>
+    <string name="menu_info">手机信息:</string>
+    <string name="leave_contact">留下您的Email或其他联系方式，以便更好的为您服务！</string>
+    <string name="leave_idea">在此输入您对淘色的意见和建议，我们会派专人解决！</string>
+    <string name="send">发送</string>
+    <string name="you_email">您的Email(可选)</string>
+    <string name="you_suggest">您的建议</string>
+    <string name="dice_info">摇一摇，做一做\n不许耍赖哟！</string>
+    <string name="prompt_noDetail_desc">没有商品描述</string>
+    <string name="prompt_input_psd">请设置应用打开密码</string>
+    <string name="prompt_input_psd_error">输入密码错误</string>
+    <string name="prompt_input_psd_again">请再次输入密码</string>
+    <string name="prompt_input_openPwd">请输入隐私密码打开应用</string>
+    <string name="store_had">亲，喜欢就赶紧抢购哦！</string>
+    <string name="store_nothad">没有收藏的宝贝，快去看看挑几个吧！</string>
+    <string name="PCBuy_pleaseOpenWeb">欢迎使用PC购\n请确认你已经在电脑端打开了网站</string>
+    <string name="PCBuy_ip">http://54.248.217.133:8080</string>
+
+</resources>

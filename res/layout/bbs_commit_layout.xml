@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/panelContent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/teiba_reply_etUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="匿名用户"
+        android:inputType="text"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/margin16" />
+
+    <EditText
+        android:id="@+id/teiba_reply_etContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teiba_reply_etUserName"
+        android:gravity="top"
+        android:minLines="4"
+        android:singleLine="false"
+        android:hint="禁止发布广告、色情、谩骂等违反相关法律法规的内容"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/margin16" />
+
+    <Button
+        android:id="@+id/tieba_reply_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teiba_reply_etContent"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_btnbg"
+        android:inputType="text"
+        android:paddingLeft="@dimen/size45"
+        android:paddingRight="@dimen/size45"
+        android:text="评论"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_18" />
+
+</RelativeLayout>

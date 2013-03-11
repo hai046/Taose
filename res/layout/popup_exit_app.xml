@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_left10" >
+
+    <!-- //280 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size48_33"
+        android:background="@color/black"
+        android:paddingLeft="@dimen/margin5"
+        android:paddingRight="@dimen/margin5" >
+
+        <ImageButton
+            android:layout_width="@dimen/size30"
+            android:layout_height="@dimen/size30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginRight="@dimen/margin5"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/popup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="淘色提示您"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_22" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_left10"
+        android:text="@string/are_you_exit"
+        android:textColor="@color/black_98"
+        android:textSize="@dimen/title_22" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/hbfgx" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size50" >
+
+        <Button
+            android:id="@+id/exit_OK"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="@string/ok"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_22" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shuxian" />
+
+        <Button
+            android:id="@+id/exit_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="@string/cancel"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_22" />
+    </LinearLayout>
+
+</LinearLayout>

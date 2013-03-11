@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECECEC"
+    android:orientation="vertical"
+    android:paddingBottom="0dip"
+    android:paddingLeft="@dimen/margin5"
+    android:paddingRight="@dimen/margin5" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin7"
+        android:layout_marginLeft="@dimen/margin5"
+        android:layout_marginRight="@dimen/margin5"
+        android:background="@drawable/xqybj"
+        android:orientation="vertical"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip" >
+
+        <!-- <View -->
+        <!-- android:id="@+id/tieba_line" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="1px" -->
+        <!-- android:background="@drawable/xuxian" -->
+        <!-- android:paddingLeft="@dimen/margin5" -->
+        <!-- android:paddingRight="@dimen/margin5" > -->
+        <!-- </View> -->
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DBDBDB"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin2" >
+
+            <ImageView
+                android:id="@+id/tieba_titleImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin5"
+                android:layout_marginRight="@dimen/margin5"
+                android:src="@drawable/nvshen" />
+
+            <TextView
+                android:id="@+id/tieba_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/title_18" />
+        </LinearLayout>
+
+        <!-- <View -->
+        <!-- android:id="@+id/tieba_line" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="1px" -->
+        <!-- android:layout_below="@id/topLayout" -->
+        <!-- android:layout_marginBottom="@dimen/margin3" -->
+        <!-- android:layout_toRightOf="@id/tieba_titleImage" -->
+        <!-- android:background="@color/bg_line" > -->
+        <!-- </View> -->
+
+        <TextView
+            android:id="@+id/tieba_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLayout"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginRight="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin5"
+            android:lineSpacingExtra="@dimen/margin2"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_16" />
+
+        <View
+            android:id="@+id/tieba_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/tieba_content"
+            android:layout_marginTop="@dimen/margin6"
+            android:background="@color/bg_line"
+            android:layout_marginLeft="@dimen/margin3"
+            android:layout_marginRight="@dimen/margin3"
+            android:paddingLeft="@dimen/margin16"
+            android:paddingRight="@dimen/margin16" >
+        </View>
+
+        <TextView
+            android:id="@+id/tieba_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tieba_line2"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin8"
+            android:text="12"
+            android:textColor="@color/red"
+            android:textSize="@dimen/title_14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tieba_line2"
+            android:layout_marginTop="@dimen/margin8"
+            android:layout_toRightOf="@id/tieba_see"
+            android:text="人看过"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_14" />
+
+        <TextView
+            android:id="@+id/tempPinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tieba_line2"
+            android:layout_marginRight="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin8"
+            android:text="添加评论"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_14" />
+
+        <ImageView
+            android:id="@+id/tieba_addcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tieba_line2"
+            android:layout_marginRight="@dimen/margin2"
+            android:layout_marginTop="@dimen/margin3"
+            android:layout_toLeftOf="@id/tempPinglun"
+            android:src="@drawable/selector_bbsadd" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tieba_commentLayout"
+        android:layout_marginLeft="@dimen/margin5"
+        android:layout_marginRight="@dimen/margin5"
+        android:background="@drawable/bbs_list_top"
+        android:visibility="gone"
+        android:padding="@dimen/margin8" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin2"
+            android:layout_marginTop="@dimen/margin3"
+            android:src="@drawable/pinglun"
+            android:text="12" />
+
+        <TextView
+            android:id="@+id/tieba_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin2"
+            android:text="12"
+            android:textColor="@color/red"
+            android:textSize="@dimen/title_14" />
+
+        <TextView
+            android:id="@+id/tempPinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin8"
+            android:text="评论"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_14" />
+    </LinearLayout>
+
+</LinearLayout>

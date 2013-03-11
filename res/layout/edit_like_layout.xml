@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/mainBottomLayout" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="55dip" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:background="@color/woman_bg" -->
+    <!-- android:gravity="center_vertical" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <Button -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:id="@+id/select_all" -->
+    <!-- android:text="全选" -->
+    <!-- android:layout_height="wrap_content" /> -->
+    <!-- <Button -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:id="@+id/delete_all" -->
+    <!-- android:text="清空" -->
+    <!-- android:layout_toRightOf="@id/select_all" -->
+    <!-- android:layout_height="wrap_content" /> -->
+    <!-- <Button -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:id="@+id/delete" -->
+    <!-- android:text="删除" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_height="wrap_content" /> -->
+    <!-- </RelativeLayout> -->
+
+    <ListView
+        android:id="@+id/edit_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/mainBottomLayout"
+        android:divider="@drawable/hbfgx"
+        android:fadingEdgeLength="0dip" />
+
+    <include layout="@layout/loading_include" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/contentbg" >
+
+    <LinearLayout
+        android:id="@+id/topMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/topBtn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shuxian"
+            android:paddingBottom="8dip"
+            android:paddingTop="10dip" />
+
+        <Button
+            android:id="@+id/topBtn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shuxian"
+            android:paddingBottom="8dip"
+            android:paddingTop="10dip" />
+
+        <Button
+            android:id="@+id/topBtn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.buy.widget.RefreshListView
+        android:id="@+id/detail_listviewCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topMenu"
+        android:cacheColorHint="@color/transparent" >
+    </com.buy.widget.RefreshListView>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/size44"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin5" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/size38"
+        android:layout_height="@dimen/size32"
+   
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin15"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zwt2" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin15"
+        android:layout_toRightOf="@id/image"
+        android:singleLine="true"
+        android:text="母婴用品"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/title_22" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin5"
+        android:layout_toRightOf="@id/name"
+        android:gravity="bottom"
+        android:paddingTop="@dimen/margin7"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_14"
+        android:textStyle="italic" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:src="@drawable/arrow_right" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><shape>
+            <gradient android:endColor="@color/transparent" android:startColor="@color/transparent" />
+
+            <stroke android:width="1px" android:color="@color/bg_line" />
+
+            <padding android:bottom="0px" android:left="1px" android:right="1px" android:top="1px" />
+        </shape> <!-- <gradient android:startColor="#00000000" /> -->
+        <!-- <stroke android:width="1px"  android:color="#cfcfcf" /> -->
+        <!-- <padding android:bottom="1px" android:left="1px" android:right="1px" android:top="1px" /> -->
+
+    </item>
+
+</selector>

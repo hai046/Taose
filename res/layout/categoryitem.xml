@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:padding="@dimen/margin_left5" >
+
+    <ImageView
+        android:id="@+id/img_categoryImage"
+        android:layout_width="@dimen/category_size"
+        android:layout_height="@dimen/category_size"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_marginRight="@dimen/margin_left5"
+        android:background="@drawable/image_border"
+        android:padding="5dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zwt1" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_categoryImage"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_categoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:singleLine="true"
+            android:text="品牌女装"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/title_22" />
+
+        <TextView
+            android:id="@+id/tv_categoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:singleLine="true"
+            android:text="连衣裙/半身裙/雪纺衫/针织衫"
+            android:textColor="@color/black_11" />
+    </LinearLayout>
+
+</RelativeLayout>

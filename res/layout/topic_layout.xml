@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/topic_layout_topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/recommed_gallery_height" >
+
+        <ImageView
+            android:id="@+id/topic_topImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/zwt1"
+            android:scaleType="centerCrop" />
+        <!-- <com.buy.bases.MyGallery -->
+        <!-- android:id="@+id/recommend_Gallery" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="fill_parent" > -->
+        <!-- </com.buy.bases.MyGallery> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/topic_layout_tip" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="30dip" -->
+<!--             android:layout_alignParentBottom="true" -->
+<!--             android:background="@color/galleryBg" -->
+<!--             android:gravity="center|left" -->
+<!--             android:paddingLeft="10dip" -->
+<!--             android:singleLine="true" -->
+<!--             android:textColor="@color/white" -->
+<!--             android:textSize="16sp" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/topic_layout_date" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="30dip" -->
+<!--             android:layout_alignParentBottom="true" -->
+<!--             android:gravity="center|right" -->
+<!--             android:paddingRight="10dip" -->
+<!--             android:singleLine="true" -->
+<!--             android:text="截止时间:2012-12-21" -->
+<!--             android:textColor="@color/white" -->
+<!--             android:textSize="12sp" /> -->
+    </RelativeLayout>
+
+<!--     <ListView -->
+<!--         android:id="@+id/topic_layout_listview" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="fill_parent" -->
+<!--         android:layout_below="@id/topic_layout_topLayout" -->
+<!--         android:layout_marginTop="1px" -->
+<!--         android:fadingEdgeLength="0dip" -->
+<!--         android:horizontalSpacing="1.5dip" -->
+<!--         android:listSelector="@drawable/hbfgx" -->
+<!--         android:numColumns="2" -->
+<!--         android:scrollbarStyle="outsideOverlay" -->
+<!--         android:verticalSpacing="1.5dip" > -->
+<!--     </ListView> -->
+
+</RelativeLayout>

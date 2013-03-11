@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <com.brunjoy.Zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_marginRight="@dimen/margin10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size20" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qrcode_show_icon" />
+
+        <TextView
+            android:id="@+id/txtTopTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin2"
+            android:text="@string/please_toscanPc"
+            android:textSize="@dimen/title_14" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/navitaion_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_98"
+        android:paddingBottom="@dimen/margin5"
+        android:paddingTop="@dimen/margin5" >
+
+        <!-- <Button -->
+        <!-- android:id="@+id/btn_back" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/selector_back" -->
+        <!-- android:text="Back" -->
+        <!-- android:textColor="#FF0000" /> -->
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin5"
+            android:background="@drawable/selector_back"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLength="9"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:singleLine="true"
+            android:text="PC端购物"
+            android:textColor="@color/white"
+            android:textSize="@dimen/navigation_textsize" />
+    </RelativeLayout>
+
+</RelativeLayout>

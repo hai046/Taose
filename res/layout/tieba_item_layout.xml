@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECECEC"
+    android:orientation="vertical" >
+
+    <com.buy.widget.LoadMoreListView
+        android:id="@+id/teiba_layout_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.buy.widget.LoadMoreListView>
+
+    <!-- <SlidingDrawer -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:content="@+id/tieba_reply_content" -->
+    <!-- android:handle="@+id/tieba_reply_tip" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@id/tieba_reply_tip" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" > -->
+
+
+    <!-- <Button -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="@drawable/selector_btnbg" -->
+    <!-- android:text="评论" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@id/tieba_reply_content" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+
+
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/teiba_reply_etUserName" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:hint="匿名" -->
+    <!-- android:textColor="@color/Black" -->
+    <!-- android:textSize="@dimen/margin16" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/teiba_reply_etContent" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:hint="回复的内容" -->
+    <!-- android:textColor="@color/Black" -->
+    <!-- android:textSize="@dimen/margin16" /> -->
+    <!-- </LinearLayout> -->
+    <!-- </SlidingDrawer> -->
+
+    <Button
+        android:id="@+id/tieba_reply_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_bbs_commit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_18" />
+    <!-- <com.buy.widget.Panel -->
+    <!-- android:id="@+id/panelComment" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_gravity="bottom" -->
+    <!-- panel:closedHandle="@drawable/tjpl2" -->
+    <!-- panel:openedHandle="@drawable/tjpl2_on" -->
+    <!-- panel:position="bottom" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@id/panelHandle" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" /> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@id/panelContent" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="#123456" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/teiba_reply_etUserName" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:hint="匿名用户" -->
+    <!-- android:inputType="text" -->
+    <!-- android:textColor="@color/Black" -->
+    <!-- android:textSize="@dimen/margin16" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/teiba_reply_etContent" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="top|left" -->
+    <!-- android:hint="回复的内容" -->
+    <!-- android:imeOptions="actionSend" -->
+    <!-- android:imeActionLabel="评论" -->
+    <!-- android:inputType="text" -->
+    <!-- android:minLines="3" -->
+    <!-- android:textColor="@color/Black" -->
+    <!-- android:textSize="@dimen/margin16" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/tieba_reply_btn" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:background="@drawable/selector_btnbg" -->
+    <!-- android:text="评论" -->
+    <!-- android:textColor="@color/white" -->
+    <!-- android:textSize="@dimen/title_18" /> -->
+    <!-- </LinearLayout> -->
+    <!-- </com.buy.widget.Panel> -->
+
+</RelativeLayout>

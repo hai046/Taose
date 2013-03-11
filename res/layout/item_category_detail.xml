@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_category_detail"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/size120"
+    android:paddingBottom="@dimen/margin5"
+    android:paddingLeft="@dimen/margin15"
+    android:paddingRight="@dimen/margin15"
+    android:paddingTop="@dimen/margin5" >
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="@dimen/size95"
+        android:layout_height="@dimen/size95"
+        android:layout_marginRight="@dimen/margin5"
+        android:background="@drawable/image_border"
+        android:scaleType="fitXY"
+        android:src="@drawable/zwt2" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/detail_image"
+        android:maxLines="2"
+        android:text="优孕礼包 艾宝排卵试纸 欧姆龙电子体温计341 早孕试纸包邮 限量"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_18" />
+
+    <TextView
+        android:id="@+id/tv_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin5"
+        android:layout_toRightOf="@id/detail_image"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="月销量：124件"
+        android:textSize="@dimen/title_14" />
+
+    <TextView
+        android:id="@+id/tv_credit_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin6"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_toRightOf="@id/tv_volume"
+        android:paddingBottom="@dimen/margin2"
+        android:singleLine="true"
+        android:textSize="@dimen/title_14" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dip"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="北京"
+        android:textSize="@dimen/title_14" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/detail_image"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="￥7.90"
+        android:textColor="@color/red"
+        android:textSize="@dimen/title_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_autoSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="9dip"
+        android:background="@color/blue"
+        android:gravity="center_vertical|right"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip"
+        android:singleLine="true"
+        android:text="货到付款"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_10" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="PopupAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:divider">@null</item>
+        <item name="android:spacing">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+    </style>
+
+    <style name="categoryTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:divider">@color/woman_bg</item>
+        <item name="android:spacing">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+    </style>
+
+    <style name="inputPWDTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:divider">@null</item>
+        <item name="android:spacing">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+    </style>
+
+    <!-- <STYLE NAME="ANIMATION.DIALOG"> -->
+
+
+    <!-- <ITEM NAME="WINDOWENTERANIMATION">@ANIM/DIALOG_ENTER</ITEM> -->
+
+
+<!--  <ITEM NAME="WINDOWEXITANIMATION">@ANIM/DIALOG_EXIT</ITEM>   -->
+    <!-- </STYLE> -->
+
+    <style name="loadingDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:divider">@null</item>
+        <item name="android:spacing">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <!-- <item name="android:windowAnimationStyle">@style/Animation.Dialog</item> -->
+    </style>
+
+    <style name="DialogtransparentTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:spacing">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+    </style>
+
+</resources>

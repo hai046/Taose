@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_liked_detail"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:paddingRight="5dip" >
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="82.67dip"
+        android:layout_height="82.67dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13.33dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_border"
+        android:minHeight="82.67dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zwt1" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/detail_image"
+        android:maxLines="2"
+        android:text="优孕礼包 艾宝排卵试纸 欧姆龙电子体温计341 早孕试纸包邮 限量"
+        android:textColor="@color/Black"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/image_liked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_price"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/tv_volume"
+        android:layout_marginBottom="5dip"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="月销量：124件"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_likedNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:layout_toRightOf="@id/image_liked"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="383"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/tv_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:layout_toRightOf="@id/tv_likedNum"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="月销量：124件"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dip"
+        android:background="@color/red"
+        android:maxLines="2"
+        android:padding="5dip"
+        android:singleLine="true"
+        android:text="@string/buyNow"
+        android:textColor="@color/white"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/detail_image"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="￥7.90"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
